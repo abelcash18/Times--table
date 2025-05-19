@@ -1,0 +1,57 @@
+*{
+    background-color:cadetblue;
+   font-size: large;
+   font-weight: 900;
+   font-style: oblique;
+   align-items: center;
+font-family: cursive;
+}
+
+
+.Table{
+    width: 420px;
+    border-style: groove;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: content-box;
+    background-size: cover;
+    color:aliceblue;
+    margin-top: 30px;
+    margin-left: 35%;
+    
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #f90;
+}
+
+@media (max-width:768px){
+    .Table{
+        width: 250px;
+        margin: 20px auto;
+    }
+}
+
+
+@media (max-width:480px){
+    .Table{
+        width: 90%px;
+        margin: 10px auto;
+    }
+}
+
+
+@media (max-width:320px){
+    .Table{
+        width: 150px;
+        margin: 4px auto;
+    }
+}
